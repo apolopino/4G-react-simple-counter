@@ -17,11 +17,19 @@ export default function Clock(props) {
 	);
 }
 
+// Clock.propTypes = {
+// 	uni: PropTypes.number,
+// 	dec: PropTypes.number,
+// 	cen: PropTypes.number,
+// 	mil: PropTypes.number,
+// 	dmil: PropTypes.number,
+// 	cmil: PropTypes.number
+// };
 Clock.propTypes = {
-	uni: PropTypes.number,
-	dec: PropTypes.number,
-	cen: PropTypes.number,
-	mil: PropTypes.number,
-	dmil: PropTypes.number,
-	cmil: PropTypes.number
+	uni: PropTypes.string,
+	dec: PropTypes.string,
+	cen: PropTypes.string,
+	mil: PropTypes.string,
+	dmil: PropTypes.string,
+	cmil: PropTypes.string
 };
